@@ -1,2 +1,2 @@
 # my-app
-React js
+This is my first trial react application.
