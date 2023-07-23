@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.square{
+  width: 120px;
+  height: 120px;
+  font-size: 2.2em;
+  background-color: #82868f;
+}
+.cell div{
+  margin-top: 20px;
+}
+.cell.active{
+  cursor: pointer;
+}
+.cell.disabled{
+  background-color: rgb(125,125,125);
+}
+.cell.winner{
+  background-color: rgb(177,238,175);
+  color: rgb(171,24,24);
+}
+.header{
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+.header div span{
+  color: rgb(177,238,175);
+}
